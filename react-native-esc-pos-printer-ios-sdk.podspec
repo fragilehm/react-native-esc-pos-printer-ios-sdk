@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://download.epson-biz.com'
   s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/tr3v3r/react-native-esc-pos-printer-ios-sdk.git', :tag => "#{s.version}" }
-  s.source_files = "ios/**/*.{h,m,mm,swift}"
+  s.source_files  = '*.h'
   s.preserve_paths = 'libepos2.a'
   # s.ios.vendored_libraries = "libepos2.a"
   s.libraries = "xml2.2"
