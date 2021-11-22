@@ -1,6 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = 'react-native-esc-pos-printer-ios-sdk'
   s.version      = '2.17.0'
+  s.author       = "Aliaksei Astafyeu <lochost40@gmail.com> (https://github.com/tr3v3r)"
+  s.license      = 'MIT'
   s.summary      = 'Epson ePOS_SDK_iOS for iOS'
   s.description  = <<-DESC
                     The Epson ePOS SDK for iOS is an SDK aimed at development engineers who 
