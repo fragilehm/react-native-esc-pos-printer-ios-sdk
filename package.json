@@ -1,0 +1,19 @@
+{
+  "name": "react-native-esc-pos-printer-ios-sdk",
+  "version": "1.0.1",
+  "description": "Epson ePOS_SDK_iOS for iOS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tr3v3r/react-native-esc-pos-printer-ios-sdk.git"
+  },
+  "author": "Aliaksei Astafyeu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tr3v3r/react-native-esc-pos-printer-ios-sdk/issues"
+  },
+  "homepage": "https://github.com/tr3v3r/react-native-esc-pos-printer-ios-sdk#readme"
+}

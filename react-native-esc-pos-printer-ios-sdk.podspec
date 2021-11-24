@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
-  s.name         = 'react-native-esc-pos-printer-ios-sdk'
-  s.version      = '1.0.0'
-  s.author       = "Aliaksei Astafyeu <lochost40@gmail.com> (https://github.com/tr3v3r)"
+  s.name         = 'epsonEscPosPrinterSDK'
+  s.version      = '2.1.7'
+  s.author       = "Aliaksei Astafyeu"
   s.license      =  { :type => 'Commercial', :file => 'LICENSE' }
   s.summary      = 'Epson ePOS_SDK_iOS for iOS'
   s.description  = <<-DESC
@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
                     Epson ePOS SDK.
                     For detailed information, please see Epson ePOS SDK for iOS User's Manual.
                    DESC
-  s.homepage     = 'https://download.epson-biz.com'
   s.platform     = :ios, '10.0'
   s.source       = { :git => 'https://github.com/tr3v3r/react-native-esc-pos-printer-ios-sdk.git', :tag => s.version.to_s }
   s.source_files  = '*.h'
