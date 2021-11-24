@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'react-native-esc-pos-printer-ios-sdk'
-  s.version      = '2.18.0'
+  s.version      = '1.0.0'
   s.author       = "Aliaksei Astafyeu <lochost40@gmail.com> (https://github.com/tr3v3r)"
   s.license      =  { :type => 'Commercial', :file => 'LICENSE' }
   s.summary      = 'Epson ePOS_SDK_iOS for iOS'
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   # s.ios.vendored_libraries = "libepos2.a"
   s.libraries = "xml2.2"
   s.framework = "ExternalAccessory"
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/react-native-esc-pos-printer-ios-sdk"' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/react-native-esc-pos-printer-ios-sdk"' }
 end
